@@ -4,19 +4,19 @@ import time
 
 time_start = time.time()
 
-min_size_box = 2  # Минимальное количество объектов в каждом контейнере.
-max_size_box = 10  # Максимальное количество объектов в каждом контейнере.
+min_size_box = 2  # Minimum number of objects in each container
+max_size_box = 10  # Maximum number of objects in each container
 
-min_size_data = 1  # Минимальное значение элемента в каждом контейнере.
-max_size_data = 10  # Максимальное значение элемента в каждом контейнере.
+min_size_data = 1  # Minimum element value in each container
+max_size_data = 10  # Maximum element value in each container
 
-min_size_required = 15  # Минимальное значение искомой комбинации
-max_size_required = 25  # Максимальное значение искомой комбинации
+min_size_required = 15  # Minimum value of the required combination
+max_size_required = 25  # Maximum value of the required combination
 
-num_containers = 10  # Количество контейнеров
+num_containers = 10  # Number of containers
 
 
-# Для тестов генератора контейнеров
+# For container generator tests
 def generate_containers(num_containers, min_size_box, max_size_box, min_size_data, max_size_data):
     containers = []
     for num in range(num_containers):
